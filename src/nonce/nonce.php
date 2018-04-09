@@ -32,7 +32,6 @@ class Nonce {
 	 * @param int|string          $action
 	 */
 	public function __construct( Wordpress_Interface $wordpress, $action = - 1 ) {
-
 		$this->action    = $action;
 		$this->wordpress = $wordpress;
 	}
